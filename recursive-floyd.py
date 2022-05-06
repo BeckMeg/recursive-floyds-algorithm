@@ -1,6 +1,6 @@
 """ The recursive version of Floyd-Warshall algorithm """
 
-INF = 9999
+INF = 999
 
 def floyd(shortestPath):
 
@@ -11,10 +11,11 @@ def floyd(shortestPath):
 
         # This is the base case.
         # When there are no intermediary vertices in the path.
-        if k == -1:
+        if k == 0:
             return shortestPath((i, j))
 
         # When using k to calculate the shortestPath, the minimum distance is returned
+        # This is the recursive case
         else:
             return min(recursive_floyd(i, j, k-1),
                        recursive_floyd(i, k, k-1)
