@@ -1,5 +1,7 @@
 """ The recursive version of Floyd-Warshall algorithm """
 
+INF = 9999
+
 def floyd(shortestPath):
 
     # This defines the vertices input of the graph
@@ -26,3 +28,5 @@ def floyd(shortestPath):
     # Return the shortest path
     """This is the shortest path found using recursive_floyd"""
     return shortestPath
+
+

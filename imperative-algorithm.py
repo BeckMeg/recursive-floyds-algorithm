@@ -1,6 +1,6 @@
 # Number of vertices
 V = 4
-INF = 999
+INF = 99999
 
 
 # Algorithm 
@@ -30,8 +30,8 @@ def sol(dist):
 
 
 G = [[0, 5, INF, 10],
-     [INF, 0, 3, INF],
-     [INF, INF, 0, 1],
-     [INF, INF, INF, 0]]
+      [INF, 0, 3, INF],
+      [INF, INF, 0, 1],
+      [INF, INF, INF, 0]]
 floyd(G)
 
