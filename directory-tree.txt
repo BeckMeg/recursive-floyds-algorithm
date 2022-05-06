@@ -1,0 +1,19 @@
+C:.
+│
+├── recursive-floyds-algorithm
+│   ├── README.md
+│   ├── examples_for_testing.py
+│   ├── imperative-algorithm.py
+│   ├── performance_testing.py
+│   ├── recursive-floyd.py
+│   ├── requirements.txt
+│   ├── directory-tree.txt
+│
+├── .idea
+│   ├── .gitignore
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── recursive-floyds-algorithm.uml
+│   ├── vcs.xml
+│   ├── inspectionProfiles
+│   │   ├── profile_settings.xml
